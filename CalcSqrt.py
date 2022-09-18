@@ -8,7 +8,7 @@ prev_ans = 0
 input_num = input("> ")
 sys.exit() if input_num.lower() == "quit" else None
 for _ in range(1000):
-	ans = sqrt(int(input_num), ans)
+	ans = sqrt(float(input_num), ans)
 	if prev_ans == ans: break
 
 	prev_ans = ans
